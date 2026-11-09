@@ -1,29 +1,41 @@
-<p align="center">
-  <img src="assets/linkedin-banner.png" width="100%" alt="Gowtham K. Designer, Developer, Quantum Enthusiast. Red banner with research, study, and development mascots." />
-</p>
+# Hey! Nice to see you.
 
-# Hey, I'm Gowtham.
+Welcome to my GitHub profile.  
+I'm **Gowtham K**, a **software engineer from Chennai, India**.
 
-**Software engineer · Co-founder at DoodleByte Studio · Chennai, India**
+I build full-stack applications, developer tools, and backend systems. My work includes production commerce platforms, an open-source deployment CLI, and software used across college departments.
 
-I build software people use: stores that take real orders, tools that deploy apps, and payment systems that hold up under concurrency. I like working across the whole system, from the interface to the database to the server it runs on.
+[LinkedIn](https://www.linkedin.com/in/gowtham472/) | [Email](mailto:gowtham9112006@gmail.com) | [GitHub repositories](https://github.com/gowtham472?tab=repositories)
 
-<p>
-  <a href="https://www.linkedin.com/in/gowtham472/"><img src="assets/link-linkedin.png" height="40" alt="LinkedIn" /></a>
-  &nbsp;
-  <a href="mailto:gowtham9112006@gmail.com"><img src="assets/link-email.png" height="40" alt="Email me" /></a>
-  &nbsp;
-  <a href="https://github.com/gowtham472?tab=repositories"><img src="assets/link-repositories.png" height="40" alt="Explore my repositories" /></a>
-</p>
+## Things I code with
 
----
+**Languages**  
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-D6B600?style=flat-square&logo=javascript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square)
 
-## <img src="assets/heading-projects.png" width="340" alt="Selected projects" />
+**Web & APIs**  
+![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-171717?style=flat-square&logo=nextdotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-404040?style=flat-square&logo=express&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-### 01 / nextship
-**Deploy Next.js to infrastructure you own.**
+**Databases**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-DD7100?style=flat-square&logo=firebase&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square)
 
-An open-source CLI for deploying to DigitalOcean or your own Linux server, with logs and rollback. Built around the parts that make deployment trustworthy: reproducible builds, compatibility checks, and a way back when something goes wrong.
+**Cloud & Tools**  
+![AWS](https://img.shields.io/badge/AWS-D97706?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Testing**  
+![Vitest](https://img.shields.io/badge/Vitest-527F20?style=flat-square&logo=vitest&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+
+**Engineering focus:** reliable payments, database concurrency, access control, audit logging, and deployment automation.
+
+## Open source projects
+
+| Project | Stars | Forks | Issues | Pull requests |
+| :--- | :---: | :---: | :---: | :---: |
+| [nextship](https://github.com/gowtham472/nextship) | [![Stars](https://img.shields.io/github/stars/gowtham472/nextship?style=flat-square&label=stars&color=2088FF)](https://github.com/gowtham472/nextship/stargazers) | [![Forks](https://img.shields.io/github/forks/gowtham472/nextship?style=flat-square&label=forks&color=2088FF)](https://github.com/gowtham472/nextship/forks) | [![Open issues](https://img.shields.io/github/issues/gowtham472/nextship?style=flat-square&label=open&color=2088FF)](https://github.com/gowtham472/nextship/issues) | [![Open pull requests](https://img.shields.io/github/issues-pr/gowtham472/nextship?style=flat-square&label=open&color=2088FF)](https://github.com/gowtham472/nextship/pulls) |
+
+### nextship
+**Open-source deployment CLI for Next.js**
+
+Deploys Next.js applications to DigitalOcean or a Linux server, with reproducible builds, compatibility checks, live logs, and rollback.
 
 - Passes the official Next.js deployment adapter compatibility suite, with documented skips.
 - Reduced a measured Docker image from **1.13 GB to 591 MB** through pruning.
@@ -32,17 +44,19 @@ An open-source CLI for deploying to DigitalOcean or your own Linux server, with 
 
 [Source code](https://github.com/gowtham472/nextship) · [Documentation & quick start](https://nextship.doodlebytestudio.in/)
 
-### 02 / Narpadham Foods
-**A real storefront, with real checkout problems to solve.**
+## Selected applications
 
-Built and operate an online food store through DoodleByte Studio, with payments, inventory, and WhatsApp ordering. PostgreSQL row locks protect stock during simultaneous checkouts; verified, idempotent webhooks make payment retries safe.
+### Narpadham Foods
+**Production e-commerce platform**
+
+Built and operate an online food store with payments, inventory management, and WhatsApp ordering. PostgreSQL row locks protect stock during simultaneous checkouts; verified, idempotent webhooks make payment retries safe.
 
 `Next.js` `TypeScript` `PostgreSQL` `Payments`
 
 [Visit Narpadham Foods](https://narpadhamfoods.com/)
 
-### 03 / Santru
-**Let an AI agent shop. Keep the spending rules deterministic.**
+### Santru
+**Payment authorization for AI agents**
 
 A payment system built for the Razorpay AI Buildathon, where an agent can transact only within a user-signed spending mandate. A rules engine approves payments, with signatures, replay protection, and an auditable ledger.
 
@@ -50,21 +64,21 @@ A payment system built for the Razorpay AI Buildathon, where an agent can transa
 
 `TypeScript` `PostgreSQL` `MCP` `Razorpay`
 
-### 04 / ADI
-**Understand what an infrastructure change could break before deploying it.**
+### ADI
+**Infrastructure change impact analysis on AWS**
 
 Builds a dependency graph of an AWS CloudFormation stack, predicts the impact of a change, and checks those predictions against CloudWatch after deployment. In a live test, it flagged a security-group port typo before CloudWatch confirmed the resulting database outage.
 
 `TypeScript` `AWS Lambda` `Step Functions` `DynamoDB` `Bedrock`
 
-## <img src="assets/heading-experience.png" width="260" alt="Experience" />
+## Experience
 
-At **DoodleByte Studio**, I also built an invoice automation system that reads vendor invoices with OCR, validates GST details, and imports approved invoices into TallyPrime.
+Built an invoice automation system that reads vendor invoices with OCR, validates GST details, and imports approved invoices into TallyPrime.
 
 During my internships at **Sri Sairam Techno Incubator Foundation**, I led work on **Sairam eMoU Vault**, adopted by **8 departments**, and **Noto**, an internal project management platform with role-based access and **155 REST APIs**.
 
 <details>
-<summary><strong>More things I've been working on</strong></summary>
+<summary><strong>Additional Projects and Research</strong></summary>
 
 - **Vellam:** street-level flood risk for India, with 48-hour forecasts and rising-risk email alerts; rechecks 40 cities every three hours.
 - **[Zcan](https://zcan.in/):** campus food pre-ordering, real-time order updates, online payments, and receipt printing.
@@ -76,20 +90,9 @@ During my internships at **Sri Sairam Techno Incubator Foundation**, I led work 
 
 </details>
 
-## <img src="assets/heading-toolkit.png" width="240" alt="My toolkit" />
+## Education
 
-| Area | Technologies |
-| :--- | :--- |
-| Languages | TypeScript, JavaScript, Python, Java, SQL |
-| Web & APIs | React, Next.js, Node.js, Express, FastAPI |
-| Data | PostgreSQL, MongoDB, Firebase, DynamoDB |
-| Infrastructure | AWS, Docker, Linux, Git, GitHub Actions |
-| Testing | Vitest, pytest, integration testing, end-to-end testing |
+**B.E. Computer Science and Engineering**  
+Sri Sairam Engineering College | 2024–2028 | CGPA: **9.38/10**
 
-The details I keep coming back to: **safe retries, database concurrency, access control, audit trails, and deployments you can roll back.**
-
-## <img src="assets/heading-about.png" width="230" alt="About me" />
-
-I'm studying **Computer Science and Engineering at Sri Sairam Engineering College** (2024–2028), with a **9.38/10 CGPA**. My projects span developer tooling, commerce, cloud infrastructure, and security.
-
-If you're working on something in those areas, [let's talk](mailto:gowtham9112006@gmail.com).
+For project discussions and collaboration, [contact me by email](mailto:gowtham9112006@gmail.com).
